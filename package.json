@@ -20,7 +20,8 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "generate": "plop"
   },
   "peerDependencies": {
     "react": ">=16",
@@ -53,17 +54,21 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@size-limit/preset-small-lib": "^7.0.4",
+    "@storybook/addon-docs": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^6.4.9",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^6.4.9",
     "@storybook/react": "^6.4.9",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.2.3",
     "husky": "^7.0.4",
+    "plop": "^3.0.5",
     "postcss": "^8.4.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

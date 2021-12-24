@@ -1,0 +1,24 @@
+import { Canvas, Meta, Story, ArgsTable } from '@storybook/addon-docs';
+
+import { Heading } from './Heading.component';
+
+<Meta title="Atoms/Heading" component={Heading} />
+
+# Heading
+
+Let's define a story for our `Heading` component:
+
+export const copy = 'Powder pastry gingerbread cupcake chocolate cake.';
+
+<Canvas>
+  <Story name="Heading">
+    <Heading level="h1">{copy}</Heading>
+    <Heading level="h2">{copy}</Heading>
+    <Heading level="h3">{copy}</Heading>
+    <Heading level="h4">{copy}</Heading>
+    <Heading level="h5">{copy}</Heading>
+    <Heading level="h6">{copy}</Heading>
+  </Story>
+</Canvas>
+
+<ArgsTable of={Heading} />
