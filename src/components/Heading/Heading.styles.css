@@ -11,13 +11,13 @@
 }
 
 .h4 {
-  @apply text-2xl;
+  @apply text-xl;
 }
 
 .h5 {
-  @apply text-lg;
+  @apply text-sm font-light;
 }
 
 .h6 {
-  @apply text-sm uppercase;
+  @apply text-sm font-bold uppercase;
 }

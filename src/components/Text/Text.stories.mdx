@@ -5,14 +5,16 @@ import { Text } from './Text.component';
 
 # Text
 
-The text component should be used whenever rendering any copy on the screen
+The text component should be used whenever rendering copy
+
+export const copy =
+  'Croissant soufflé sesame snaps shortbread marshmallow sesame snaps cake croissant.';
 
 <Canvas>
   <Story name="Text">
-    <Text>
-      Croissant soufflé sesame snaps shortbread marshmallow sesame snaps cake
-      croissant.
-    </Text>
+    <Text className="text-lg">{copy}</Text>
+    <Text>{copy}</Text>
+    <Text className="text-sm">{copy}</Text>
   </Story>
 </Canvas>
 

@@ -8,8 +8,10 @@ afterEach(cleanup);
 
 describe('Heading', () => {
   it('renders without error', () => {
-    const { getByTestId } = render(<Heading data-testid="HeadingComponent">Foo Bar Baz</Heading>);
-    const component = getByTestId('HeadingComponent')
+    const { getByTestId } = render(
+      <Heading data-testid="HeadingComponent">Foo Bar Baz</Heading>
+    );
+    const component = getByTestId('HeadingComponent');
 
     expect(component).toBeInTheDocument();
   });
