@@ -10,7 +10,7 @@ export interface TextProps extends HTMLAttributes<HTMLParagraphElement> {
  */
 export const Text: FC<TextProps> = ({ className, children, ...props }) => {
   return (
-    <p className={`font-sans ${className}`} {...props}>
+    <p className={`font-sans ${className ? className : ''}`} {...props}>
       {children}
     </p>
   );

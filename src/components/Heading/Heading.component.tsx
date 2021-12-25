@@ -19,7 +19,7 @@ export const Heading: FC<HeadingProps> = ({
 }) => {
   const Component = level as HeadingLevels;
   return (
-    <Component className={`${level} ${className}`} {...props}>
+    <Component className={`${level} ${className ? className : ''}`} {...props}>
       {children}
     </Component>
   );
