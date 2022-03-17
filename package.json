@@ -32,12 +32,6 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "name": "evoke-ui",
   "author": "Adam Colpitts",
   "module": "dist/evoke-ui.esm.js",
@@ -60,13 +54,13 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@size-limit/preset-small-lib": "^7.0.4",
-    "@storybook/addon-docs": "^6.4.9",
-    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-docs": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-info": "^5.3.21",
-    "@storybook/addon-links": "^6.4.9",
+    "@storybook/addon-links": "^6.4.19",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addons": "^6.4.9",
-    "@storybook/react": "^6.4.9",
+    "@storybook/addons": "^6.4.19",
+    "@storybook/react": "^6.4.19",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/react": "^17.0.38",
